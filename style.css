@@ -1,0 +1,168 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: aeonik,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+
+}
+#main
+{
+    height: 100%;
+    width: 100%;
+
+}
+#nav
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    font-size: 15px;
+    font-weight: 300;
+    padding:20px 20px;
+    justify-content: flex-end;
+}
+#nav h3{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+#intro
+{
+    height: 45%;
+    width: 100%;
+background-color:salmon; 
+padding: 40px 55px;
+}
+#intro h1{
+    font-size: 80px;
+    line-height: 85px;
+    letter-spacing: -3px;
+    
+}
+#place
+{
+    display: flex;
+    align-items: centre;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+#place h3, #place h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+#hero-img
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(photo.avif); 
+    background-size:cover;
+    background-position:top;
+    
+    background-color: orange;
+}
+#about
+{
+    height: 40%;
+    width: 100%;
+    padding: 10px 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+#about h2{
+    width: 60%;
+    font-size: 40px;
+    line-height: 45px;
+    letter-spacing: -1px;
+
+}
+#about2
+{  width: 35%;
+    height: 100%;
+    padding: 0px 20px;
+    border-left: 2px solid black;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;}
+
+#about2 h3
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+#icon i
+{
+    background-color: black;
+    color: #fff;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 50px;
+    margin-right: 5px;
+
+}
+#work
+{
+    height: 45%;
+    width: 100%;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+#work1
+{
+    width: 30%;
+    height: 100%;
+    border-right: 2px solid #000;
+    /* align-items: center; */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+#work1 i{
+    font-size: 20px;
+}
+#work2
+{
+    width: 70%;
+    height: 100%;
+    /* background-color: blue; */
+    padding: 0px 30px;
+}
+.work-part
+{
+
+    display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px 0px;
+}
+.work-part:nth-child(1){
+    border-bottom: 2px solid #000;
+}
+.elem
+{
+    width: 50%;
+    height: 100%;
+}
+.elem:nth-child(1)
+{
+    border-right: 2px solid #000;
+    padding-right: 20px;
+}
+.elem:nth-child(2)
+{
+    padding-left:  30px;
+}
